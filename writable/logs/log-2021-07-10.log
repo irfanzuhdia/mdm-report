@@ -1,0 +1,102 @@
+ERROR - 2021-07-10 01:31:31 --> Table 'mdmreport.pegawai' doesn't exist
+CRITICAL - 2021-07-10 01:52:23 --> Undefined variable $id_aktivitas
+#0 C:\xampp\htdocs\mdmreport\app\Controllers\Aktivitas.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->edit('1')
+#2 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-10 02:26:27 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-10 02:26:46 --> Attempt to read property "id_aktivitas" on array
+#0 C:\xampp\htdocs\mdmreport\app\Views\aktivitas\edit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('aktivitas/edit', Array, true)
+#4 C:\xampp\htdocs\mdmreport\app\Controllers\Aktivitas.php(77): view('aktivitas/edit', Array)
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->edit('4')
+#6 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#7 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-10 02:33:50 --> Too few arguments to function App\Controllers\Aktivitas::edit(), 0 passed in C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->edit()
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#2 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-10 02:36:33 --> Undefined property: stdClass::$id_pegawai
+#0 C:\xampp\htdocs\mdmreport\app\Views\pegawai\edit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pegawai/edit', Array, true)
+#4 C:\xampp\htdocs\mdmreport\app\Controllers\Aktivitas.php(77): view('pegawai/edit', Array)
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->edit('3')
+#6 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#7 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-10 02:37:13 --> Undefined property: stdClass::$id_pegawai
+#0 C:\xampp\htdocs\mdmreport\app\Views\pegawai\edit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pegawai/edit', Array, true)
+#4 C:\xampp\htdocs\mdmreport\app\Controllers\Aktivitas.php(77): view('pegawai/edit', Array)
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->edit('2')
+#6 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#7 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-10 02:38:01 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-10 02:38:20 --> syntax error, unexpected token "echo", expecting ";"
+#0 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-07-10 02:41:06 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\mdmreport\app\Controllers\Aktivitas.php on line 77
+#0 C:\xampp\htdocs\mdmreport\app\Controllers\Aktivitas.php(77): view('aktivitas/edit', Object(stdClass))
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->edit('3')
+#2 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-10 02:43:28 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\mdmreport\app\Views\aktivitas\edit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('aktivitas/edit', Array, true)
+#4 C:\xampp\htdocs\mdmreport\app\Controllers\Aktivitas.php(81): view('aktivitas/edit', Array)
+#5 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->edit('3')
+#6 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#7 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

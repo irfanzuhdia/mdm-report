@@ -1,0 +1,140 @@
+CRITICAL - 2021-07-18 20:35:04 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Views\pinjam_aset.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pinjam_aset', Array, true)
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Aset.php(160): view('pinjam_aset', Array)
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aset->pinjam('1')
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aset))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-18 20:35:35 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Views\pinjam_aset.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pinjam_aset', Array, true)
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Aset.php(160): view('pinjam_aset', Array)
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aset->pinjam('1')
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aset))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-07-18 21:15:05 --> Error connecting to the database: Unknown database 'mdmreport1'
+CRITICAL - 2021-07-18 21:15:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mdmreport1'
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Model.php(153): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(true, '1')
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Aset.php(150): CodeIgniter\BaseModel->find('1')
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aset->pinjam('1')
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aset))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-07-18 21:15:05 --> Error connecting to the database: Unknown database 'mdmreport1'
+CRITICAL - 2021-07-18 21:15:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mdmreport1'
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Aset.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aset->index()
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aset))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-07-18 21:15:49 --> Error connecting to the database: Unknown database 'mdmreport1'
+CRITICAL - 2021-07-18 21:15:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'mdmreport1'
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Login.php(21): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->process()
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-18 22:55:28 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Views\pinjam_aset.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pinjam_aset', Array, true)
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Aset.php(160): view('pinjam_aset', Array)
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aset->pinjam('1')
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aset))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-18 22:55:32 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Views\pinjam_aset.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pinjam_aset', Array, true)
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Aset.php(160): view('pinjam_aset', Array)
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aset->pinjam('1')
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aset))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-18 23:10:30 --> Undefined property: mysqli::$username
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Views\admin\daftar_pegawai.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/daftar_pe...', Array, true)
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Pegawai.php(21): view('admin/daftar_pe...', Array)
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-07-18 23:11:21 --> Undefined property: mysqli::$username
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Views\admin\daftar_pegawai.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('admin/daftar_pe...', Array, true)
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Pegawai.php(21): view('admin/daftar_pe...', Array)
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Pegawai->index()
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-07-18 23:22:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NULL,
+	`tgl_peminjaman` DATE NOT NULL,
+	`tgl_pengembalian` DATE NOT ...' at line 4
+ERROR - 2021-07-18 23:24:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NULL,
+	`tgl_peminjaman` DATE NULL,
+	`tgl_pengembalian` DATE NULL,
+	C...' at line 4
+ERROR - 2021-07-18 23:26:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NULL,
+	`tgl_peminjaman` DATE NULL,
+	`tgl_pengembalian` DATE NULL,
+	C...' at line 4
+ERROR - 2021-07-18 23:30:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NULL,
+	`tgl_peminjaman` DATE NOT NULL,
+	`tgl_pengembalian` DATE NOT ...' at line 4
+CRITICAL - 2021-07-18 23:50:20 --> Undefined variable $aktivitas
+#0 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Views\pinjam_aset.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('pinjam_aset', Array, true)
+#4 C:\xampp\htdocs\mdmreport 6\mdmreport\app\Controllers\Aset.php(160): view('pinjam_aset', Array)
+#5 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aset->pinjam('1')
+#6 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aset))
+#7 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mdmreport 6\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mdmreport 6\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

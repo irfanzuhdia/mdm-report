@@ -1,0 +1,38 @@
+CRITICAL - 2021-07-12 17:55:55 --> Undefined constant "App\Controllers\admin"
+#0 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->process()
+#1 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mdmreport 3\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-12 18:09:51 --> Undefined property: App\Controllers\Login::$moduser
+#0 C:\xampp\htdocs\mdmreport 3\mdmreport\app\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->process()
+#2 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mdmreport 3\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-12 18:11:18 --> Call to undefined method App\Controllers\Login::asObject()
+#0 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Login->process()
+#1 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mdmreport 3\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-07-12 18:30:52 --> Undefined variable $usernow
+#0 C:\xampp\htdocs\mdmreport 3\mdmreport\app\Controllers\Aktivitas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->index()
+#2 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#3 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mdmreport 3\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-07-12 18:31:17 --> Undefined variable $usernow
+#0 C:\xampp\htdocs\mdmreport 3\mdmreport\app\Controllers\Aktivitas.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Aktivitas->index()
+#2 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aktivitas))
+#3 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mdmreport 3\mdmreport\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mdmreport 3\mdmreport\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
